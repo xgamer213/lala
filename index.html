@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry piddu fatima</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff6f61;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .response-buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button.decline {
+            background-color: #e74c3c;
+        }
+
+        .button:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>I'm Sorry</h1>
+</header>
+
+<main>
+    <h2>hi [fatima],</h2>
+    <p>
+        I know that I hurt you and made a mistake, and I am truly sorry for my actions. I value our friendship more than anything, and I never meant to cause you pain.
+    </p>
+    <p>
+        Please forgive me for what happened. I promise to be better and make it up to you. Our friendship means the world to me, and I hope we can move forward together.
+    </p>
+
+    <div class="response-buttons">
+        <button class="button" onclick="acceptApology()">I Accept Your Apology</button>
+        <button class="button decline" onclick="declineApology()">I Can't Accept Your Apology</button>
+    </div>
+
+    <p id="responseMessage" style="font-weight: bold;"></p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Apology Website | Created with care</p>
+</footer>
+
+<script>
+    function acceptApology() {
+        document.getElementById('responseMessage').innerText = "hehehe. i knew this tum maan jao gi!";
+        document.getElementById('responseMessage').style.color = "#4CAF50";
+    }
+
+    function declineApology() {
+        document.getElementById('responseMessage').innerText = "wtf? penchod wapis jao aur accept karo apology. AJEEB.";
+        document.getElementById('responseMessage').style.color = "#e74c3c";
+    }
+</script>
+
+</body>
+</html>
